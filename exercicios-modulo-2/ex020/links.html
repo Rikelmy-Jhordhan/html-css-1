@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: sandybrown;
+            text-decoration: none;
+            /*Tirar o traço de baixo ____*/
+            font-weight: bold;
+            /*Negrito*/
+        }
+
+        a:visited {
+            /* Quando eu visitar*/
+            color: darkblue;
+            
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+            /*Quando eu passar o mouse por cima coloque um traço _____ em baixo do texto..*/
+        }
+
+        a:active {
+            /*Quando clicar ele vai ter a ação, somente quando estiver clicando*/
+            color: yellow;
+        }
+
+        .especial::before {
+            content: '⇨';
+            color: rgb(214, 187, 187);
+        }
+
+        .especial::after {
+            content: '⇦' ;
+        }
+        /*a::before{
+            
+            content: '[LINK]';
+            color: rgb(177, 133, 133);
+            font-weight: normal;
+            font-size: 0.6em;
+        }
+
+        a::after {
+           
+            content: '[LINK]';
+            color: rgb(199, 158, 158);
+            font-weight: normal;
+            font-size: 0.6em;
+
+            POSSO USAR OS DOIS BEFORE E AFTER JUNTOS
+        }*/
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.cursoemvideo.com/ " target="_blank" class="especial">Repositório GITHUB</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Canal do YT</a></li>
+        <li><a href="https://www.cursoemvideo.com/">Site do curso em vídeo</a></li>
+    </ul>
+</body>
+</html>

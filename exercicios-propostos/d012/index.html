@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varias areas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Vídeos</h1>
+        <div>
+            <a href="pg01.html"><img src="imagens/thumb-hardware.png" alt="Hardware"></a>
+            <a href="pg02.html"><img src="imagens/thumb-html.png" alt="HTML"></a>
+            <br>
+            <a href="pg03.html"><img src="imagens/thumb-js.png" alt="JavaScript"></a>
+            <a href="pg04.html"><img src="imagens/thumb-python.png" alt="Python"></a>
+        </div>
+
+        <h1>Frases marcadas</h1>
+        <h2>Use a tag &lt;mark&gt;</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <mark>Debitis eligendi error</mark>, voluptatum, quo hic corporis architecto unde est minus quae tenetur perferendis ipsum repellendus voluptate eos odio suscipit asperiores ratione?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<mark> Molestias dolore reiciendis totam aliquam magnam repudiandae, praesentium, voluptate blanditiis</mark>, iste et voluptates dolores temporibus itaque doloremque fugiat suscipit aspernatur dicta aliquid.</p>
+        <p>A tag <mark>&lt;mark&gt;</mark> já vem por padrão em amarelos vamos trocar com as CSS.</p>
+
+        <h1><del>Frases deletadas</del></h1>
+        <h2>Use a tag &lt;del&gt;</h2>
+        <p><del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis facilis quibusdam nihil vitae iure fugiat dolor asperiores. Vero nam quaerat beatae dolorem ducimus? Fugiat nesciunt, modi nostrum tempore deserunt sapiente.</del></p>
+        <p>Indica de que deve ser lida mais não considerada.</p>
+
+        <h1><ins>Texto inserido</ins></h1>
+        <h2>Use a tag &lt;ins&gt;</h2>
+            <p>Lorem ipsum dolor <ins>sit amet consectetur adipisicing elit. Nulla aliquam minus molestias corrupti, eaque perspiciatis quas</ins> dignissimos cum veritatis obcaecati officiis iste tempora numquam ut fugiat provident, sit magni culpa.</p>
+            <p>Usado para da enfase</p>
+
+        <h1>Texto Sobre<sup>scrito</sup> e Sub<sub>scrito</sub></h1>
+        <p>Lorem <sup>ipsum dolor sit amet consectetur, adipisicing elit.</sup> </p>
+        <p>Lorem <sub>ipsum dolor sit amet consectetur adipisicing elit.</sub></p>
+        <p>Para sobrescrito uso a tag &lt;sup&gt; e subscrito a tag &lt;sub&gt;</p>
+
+        <h1>Comando Code e pre + code</h1>
+        <h2><code>Apenas a tag &lt;code&gt;</code></h2>
+        <code>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quod ea unde! Nihil vitae explicabo quae dignissimos nemo sapiente placeat eaque minima natus, dolor provident eligendi ipsam magnam? Reprehenderit, tempore?</p>
+            <p>Esse comando vai fazer com que todas as letras ocupem o mesmo espaço </p>
+        </code>
+        <h2>o comando &lt;pre&gt; + &lt;code&gt;</h2>
+            <pre>
+                <code>
+                          Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Doloremque cumque
+                        impedit assumenda incidunt quis rem
+                        odit, harum placeat eligendi nobis 
+                        quisquam. Explicabo nam accusamus 
+                        aspernatur blanditiis, autem cum nisi 
+                        consequuntur.
+                </code>
+            </pre>
+            <p>Esse comando vai fazer com que conforme foi digitado no codigo vai sair na tela</p>
+
+        <h1>Trabalhando com listas</h1>
+        <h2>Listas ordenadas e não ordenadas</h2>
+        <ol type="I" start="3">
+            <li>Jogos favoritos</li>
+                <ul style="list-style-type: square;">
+                    <li>Fifa</li>
+                        <ul>
+                            <li>Versão 2012</li>
+                            <li>Versão 2016</li>
+                            <li>Versão 2018</li>
+                        </ul>
+                    <li>Resident evil</li>
+                        <ul>
+                            <li>3</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                        </ul>
+                </ul>
+        </ol>
+        <p>Podemos trabalhar com ol usando Letras/Numeros/Números romanos podemos tambem usar o start para começar de outro numero letras... e podemos usar nas ul circle square e uma outra</p>
+
+        <h2>Lista de definições</h2>
+        <p>Usada para definir um termo, como se fosse um dicionário</p>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae libero quae dignissimos facilis commodi.</dd>
+            <dt>JavaScript</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae libero quae dignissimos facilis commodi.</dd>
+            <dt>Python</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae libero quae dignissimos facilis commodi.</dd>
+        </dl>
+
+        <h1>Imagens Dinâmicas</h1>
+        <picture>
+            <source media="(max-width:450px )" srcset="imagens/dinamicas/Penguins-300.jpg" type="image/jpeg">
+            <source media="(max-width:650px )" srcset="imagens/dinamicas/Penguins-400.jpg" type="image/jpeg">
+            <source media="(max-width:850px )" srcset="imagens/dinamicas/Penguins-600.jpg" type="image/jpeg">
+            <img src="imagens/dinamicas/Penguins-800.jpg" alt="Pinguins">
+        </picture>
+
+    </main>
+</body>
+</html>

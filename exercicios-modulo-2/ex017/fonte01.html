@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'work Sans',  Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm,mm,in(polegadas),px(recomendada),pt,pc
+            Medidas relativas:em(altura M)(recomendada),ex(altura x),rem,vw,vh
+            */
+            font-size: 1em;
+        }
+        h1 {
+            /*Inves de usar 
+                font-family: 'work Sans', sans-serif;
+                font-weight: bolder;
+                font-size: 2em;
+                font-style: italic;
+            eu uso o font
+            shorthand(significa da uma mão) font
+            deve ser declarado na respectiva sequência(nessa sequência pq são os que conhecemos) 
+            font-style => font-weigth => font-size => font-family*/
+            font: italic bolder 2em 'work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quasi cupiditate minima fugiat, ullam velit repellat ab molestiae distinctio quaerat quae incidunt sequi fuga doloribus quam illo vel voluptas quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate eos, natus neque minima ipsa nemo excepturi at nesciunt beatae maiores unde veniam molestiae culpa ullam ab sed suscipit. Tenetur, beatae.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia amet laboriosam, aliquid vitae labore asperiores temporibus placeat modi dignissimos iure libero dolorem aspernatur deleniti laborum? Aliquid blanditiis quaerat asperiores voluptatum!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fuga repellat ipsum reiciendis totam, animi cum nihil odit facilis deserunt consectetur quasi quaerat molestiae debitis inventore quo dolorem nobis ducimus.</p>
+</body>
+</html>

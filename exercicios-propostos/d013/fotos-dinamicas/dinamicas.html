@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main>
+        <h1>Imagens dinâmicas</h1>
+        <picture>
+            <source media="(max-width:450px )" srcset="por-do-sol-300.jpg">
+            <source media="(max-width:550px )" srcset="por-do-sol-400.jpg">
+            <source media="(max-width:650px )" srcset="por-do-sol-500.jpg" type="image/jpeg">
+            <img src="por-do-sol-600.jpg" alt="Por do sol">
+        </picture>
+        <p>Para voltar a página inicial <a href="../index.html" target="_self" rel="prev">clique aqui</a></p>
+    </main>
+</body>
+</html>
